@@ -8,17 +8,21 @@ header,
 section h2,
 section h3,
 form button {
-    font-family: 'Bungee', cursive;
+    font-family: 'Play', sans-serif;
     font-weight: normal;
 }
 
+body {
+    background-color: rgb(132, 141, 150);
+}
+
 body, input, textarea {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Tektur', cursive;
 }
 
 header {
     padding: 16px 0;
-    background-color: #182c61;
+    background-color: rgb(29, 32, 36);
     color: #ecf0f1;
 }
 
@@ -70,35 +74,36 @@ section h2 {
 }
 
 section {
-    color: #182c61;
+    color: rgb(29, 32, 36);
 }
 
 section p {
     margin-bottom: 8px;
 }
 
-.store-front {
+.game-image {
+    height: 400px;
     margin-right: 32px;
 }
 
-.social-links img {
+.buy-links img {
     height: 24px;
 }
 
-.social-links li {
+.buy-links li {
     display: inline;
     margin-right: 8px;
 }
 
-.social-links li a {
+.buy-links li a {
     text-decoration: none;
 }
 
-#contact .container {
+#questions .container {
     display: block;
 }
 
-.contact-methods {
+.questions-apply {
     display: flex;
     justify-content: space-between;
 }
@@ -122,22 +127,22 @@ section h3 {
 }
 
 form button {
-    background-color: #182c61;
+    background-color: rgb(29, 32, 36);
     color: #ecf0f1;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #314e9e;
+    background-color: rgb(45, 50, 61);
 }
 
 input:focus, textarea:focus {
-    outline-color: #182c61;
+    outline-color: rgb(29, 32, 36);
 }
 
 footer {
-    background-color: #182c61;
+    background-color: rgb(29, 32, 36);
     color: #ecf0f1;
     padding: 16px 0;
 }
